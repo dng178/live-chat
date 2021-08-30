@@ -11,16 +11,11 @@ body {
 
 html {
     font-family: 'Poppins', 'Roboto', sans-serif;
-    /* background: linear-gradient(to right, #57c1eb 0%, #246fa8 100%); */
     font-size: 10px;
 }
 
 body {
     display: flex;
-    /* flex-grow: inherit;
-    flex-shrink: inherit;
-    flex: 1 2 auto; */
-    /* place-items: center; */
     width: 100vh;
 }
 
@@ -40,17 +35,3 @@ body {
     width: 1015px;
     height: 100vh;
 }
-
-
-/* #status-container,
-#friend-list,
-#option {
-    background: #E3F6FC;
-    width: 350px;
-}
-
-#chat-title,
-#chat-message-list,
-#chat-form {
-    margin-left: 70px;
-} */
