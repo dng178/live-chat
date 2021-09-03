@@ -1,7 +1,7 @@
 #friend-list {
     overflow-y: scroll;
     border-radius: 10px 10px 0px 0px;
-    height: 430px;
+    height: calc(100% - 185px);
     background: #E3F6FC;
 }
 

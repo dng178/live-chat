@@ -4,14 +4,16 @@
 
 #chat-form {
     display: flex;
-    grid: 51px / 32px 1fr;
     align-content: center;
     align-items: center;
     height: 85px;
     border-radius: 0 0 10px 0;
     padding-left: 25px;
     padding-right: 17px;
-    position: relative;
+    /* background-color: antiquewhite; */
+    margin-top: 10px;
+    /* width: 100%; */
+    /* position: relative; */
 }
 
 #chat-form input {
@@ -24,7 +26,7 @@
     border: 1px solid rgba(150, 169, 186, 0.7);
     box-sizing: border-box;
     border-radius: 14px;
-    width: 940px;
+    width: calc(100vw - 780px);
     height: 40px;
     padding-left: 100px;
     padding-right: 120px;
@@ -49,7 +51,7 @@
 #chat-form button {
     display: flex;
     justify-content: center;
-    margin-left: 760px;
+    margin-left: calc(100vw - 960px);
     width: 108px;
     height: 40px;
     padding: 10px;
